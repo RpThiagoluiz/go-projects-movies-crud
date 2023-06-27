@@ -1,0 +1,12 @@
+POST http://localhost:8000/movies
+Content-Type: application/json
+
+{
+    "id": "12",
+    "Isbn": "54545432",
+    "title": "test create",
+    "director": {
+      "firstname": "New",
+      "lastname": "Director"
+    }
+}

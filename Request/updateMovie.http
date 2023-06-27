@@ -1,0 +1,12 @@
+PUT http://localhost:8000/movies/1
+Content-Type: application/json
+
+{
+    "id": "1",
+    "Isbn": "007",
+    "title": "test update",
+    "director": {
+      "firstname": "Update",
+      "lastname": "Director"
+    }
+}
